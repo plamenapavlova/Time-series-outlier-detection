@@ -16,9 +16,13 @@ The method detects both local and global anomalies while balancing noise and nat
 
 3.Outliers Replaced – cleaned time series after replacing anomalies
 
+---
+
 **Methodology**
 
 The algorithm works in two stages:
+
+---
 
 **1. Outlier Detection**
 
@@ -35,6 +39,8 @@ If |z| > z theshold, the point is considered an outlier.
 Parameters used in this project:
 Window: size =	90	Local context around each observation
 Z-score threshold: 2.7 Sensitivity for anomaly detection
+
+---
 
 **2. Outlier Replacement**
 
