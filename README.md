@@ -36,15 +36,15 @@ For each observation:
 
 If |z| > z theshold, the point is considered an outlier.
 
-Parameters used in this project:
-Window: size =	90	Local context around each observation
+Parameters used in this project:  
+Window: size =	90	Local context around each observation  
 Z-score threshold: 2.7 Sensitivity for anomaly detection
 
 ---
 
 **2. Outlier Replacement**
 
-Detected outliers are replaced using a rolling median estimate:
--A centered rolling median smooths the signal
--The median value replaces the detected anomaly
--This preserves the trend and seasonality of the series
+Detected outliers are replaced using a rolling median estimate:  
+-A centered rolling median smooths the signal  
+-The median value replaces the detected anomaly  
+-This preserves the trend and seasonality of the series  
